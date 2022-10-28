@@ -67,3 +67,67 @@ body {
 .confirm {
   margin-left: 30%;
 }
+.heading h1{
+  border-bottom: 4px solid #10596b;
+  transition: 0.5s;
+}
+.heading h1:hover{
+  border-color: #39a0a3;
+  transform: scale(1.1);
+}
+.contact-info{
+  width: 100%;
+}
+.form-heading{
+  /* color: #10596b; */
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000;
+  transition: 0.5s;
+}
+.form-heading:hover{
+  border-bottom: 4px solid #10596b;
+}
+.gender-r{
+  margin: 20px;
+  margin-right: 40px;
+  margin-left: 0px;
+}
+p{
+  margin: 20px;
+  font-weight: 500;
+}
+input{
+  background-color: #fff4f4;
+  padding: 5px;
+  margin-left: 25px;
+  border: 2px solid #ffcbe2;
+  transition: 0.5s;
+}
+.doc-upload{
+  padding: 10px;
+}
+textarea{
+  color: #000;
+  background-color: #fff4f4;
+  border: 2px solid #ffcbe2;
+  transition: 0.5s;
+}
+textarea:hover , input:hover, textarea:active, input:active{
+  border: 2px solid #135f72;
+  border-radius: 10px;
+}
+.nationality-radio{
+  margin: 10px;
+  margin-right: 20px;
+}
+.contact-info,.payment-info{
+  transition: 0.5s;
+}
+.contact-info:hover, .payment-info:hover{
+  box-shadow: 10px 10px 5px #000;
+}
+.confirm input{
+  /* margin: 10px; */
+  padding: 5px;
+  margin: 10px;
+}
