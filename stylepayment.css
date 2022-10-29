@@ -131,3 +131,7 @@ textarea:hover , input:hover, textarea:active, input:active{
   padding: 5px;
   margin: 10px;
 }
+.required:after{
+  content: "*";
+  color: red;
+}
